@@ -8,6 +8,7 @@ import { ToastContainer } from "react-toastify";
 import { BrowserRouter } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import { ContextProvider } from "./contexts/Datacontext";
+import  './assests/scss/config/app.scss';
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
